@@ -1,0 +1,96 @@
+.flex {
+    display: flex;
+}
+
+.medicos {
+    width: 55%;
+    place-content: center;
+    margin-left: 22.5%;
+    margin-top: 25px;
+    box-shadow: 0px 0px 10px rgb(107, 106, 106);
+    text-align: center;
+}
+
+.noticias {
+    place-content: center;
+    text-align: -webkit-center;
+    padding: 40px;
+}
+
+.card {
+    background-color: #1e2225;
+    color: whitesmoke;
+    width: -webkit-fill-available;
+    box-shadow: 0px 0px 10px #e2c3c3;
+}
+
+.cardbody {
+    height: min-content;
+    padding: 0.5px;
+    width: 100%;
+}
+
+.text_pie {
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+
+.pie_pag {
+    background-color: #1e2225;
+}
+
+.log_redes {
+    width: 35px;
+    height: 35px;
+    border-radius: 15px 0px 15px 0px;
+}
+
+.efecto {
+    border-radius: 0px 0px 25px 25px;
+    box-shadow: 4px 0px 10px #e2c3c3;
+}
+
+.redes {
+    display: flex;
+    place-content: center;
+    margin-top: 15px;
+}
+
+.text_redes {
+    padding: 7px;
+    margin-left: 3px;
+    text-decoration: none;
+    color: white;
+}
+
+.tit_pie {
+    color: #e2c3c3;
+    text-decoration: overline;
+    padding: 10px;
+}
+
+#Hospital_Text {
+    color: #e2c3c3;
+}
+
+#portada {
+    text-align: center;
+}
+
+#img_portada {
+    width: 80%;
+    border-radius: 25px 0px 25px 0px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 15px #e2c3c3;
+}
+
+#Tit_servicios {
+    padding: 15px;
+    color: #e2c3c3;
+    text-decoration: overline;
+}
+
+body {
+    background-color: #212529;
+}

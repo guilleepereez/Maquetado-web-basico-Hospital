@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/Logo_Hos.png" />
+    <title>Hospital Oasis</title>
+</head>
+
+<body>
+    <header>
+        <!-- BARRA DE NAVEGACION-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark flex">
+            <div class="container-fluid" style="place-content: center;">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style="box-shadow: 0px 0px 5px #e2c3c3;">
+                    <img src="img/Logo_Hos.png" alt="" width="40px" style="margin-left: 10px;">
+               </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02" style="text-align: center;">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a id="Hospital_Text" class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicos Médicos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="conocenos.html">Conócenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactanos.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+                <section>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item flex">
+                            <a id="Hospital_Text" class="nav-link" href="#" style="margin-left: 15px;">
+                                    Hospital Oasis
+                                </a>
+                            <img src="img/Logo_Hos.png" alt="" width="40px" style="margin-left: 10px;">
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </nav>
+    </header>
+
+    <!-- PORTADA-->
+    <section id="portada">
+        <img id="img_portada" src="img/portada.jpg" alt="">
+    </section>
+
+    <!-- CARD & CONTENIDO-->
+
+    <section class="medicos">
+
+        <div class="card mb-1">
+            <div class="row g-0 ">
+                <div class="col-md-4 ">
+                    <img class="efecto" src="img/medicos.jpg " alt="... " style="width: 100%; border-radius: 0px 25px 2px 0px; margin-top: auto;">
+                </div>
+                <div class="col-md-8 ">
+                    <div class="card-body ">
+                        <h5 class="text_redes">Los mejores médicos</h5>
+                        <p class="card-text ">Tenemos la mejor lina de Doctores en el pais; y los precios mas accesibles.</p>
+                        <p class="card-text ">Dr. Manuel Gómez Gutiérrez - Cirugía General</p>
+                        <p class="card-text ">Dra. Joaquina Belchi Navarro - Cardiología</p>
+                        <p class="card-text ">Dr. José Javier Carbonell Casasús - Psiquiatría</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de noticias -->
+    <section class="noticias container">
+        <section class="row">
+            <div class="col-sm">
+                <div class="card">
+                    <img src="img/dosis.jpg" class="card-img-top efecto" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title ">Dosís de vacuna Covid-19</h5>
+                        <small>Disponible</small>
+                        <p class="card-text ">Ya contamos con 5,000 dosís de vacunas contra el Covid-19, acercate al hospital, llena un formulario y vacunate con nosotros</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm">
+                <div class="card">
+                    <img src="img/emba.jpg" class="card-img-top efecto" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title ">El 30% de las embarazadas primerizas sufre aborto natural</h5>
+                        <p class="card-text ">Se ha determinado que el 30% de las embarazadas primerizas sufre aborto natural. A juicio de los facultativos que se han dado cita en el evento, este hecho plantea muchas preguntas y dudas sobre las posibles causas</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm">
+                <div class="card">
+                    <img src="img/tarj.jpg" class="card-img-top efecto" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title ">$ Promoción del mes $</h5>
+                        <small>20 de abril hasta 10 de mayo</small>
+                        <p class="card-text ">Descuento en el total a pagar del 5%, al cancelar con cualquier tarjeta de credito o debito de cualquier banco, acercate y aprovecha esta increible promoción.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </section>
+
+
+    <!-- FOOTER (PIE DE PAGINA) -->
+    <footer>
+        <section class="pie_pag">
+            <section class="row g-0 text_pie">
+                <article class="col-md-3">
+                    <p class="tit_pie">Derechos reservados </p>
+                    <small>
+                        <p>
+                             Created for: GUILLERMO PÉREZ
+                        </p>
+                         <p>© 2021 - Hospital Oasis</p>
+                         <p>Practicas de privacidad de HIPPA</p>
+                         <p>Terminos y condiciones</p>
+                    </small>
+                </article>
+
+
+                <br>
+                <article class="col-md-3 ">
+                    <p class="tit_pie">Ubicación</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.5084030201356!2d-89.23940228517023!3d13.687629690388977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f633126349cad6b%3A0xc039d22b96bb3c5!2sHospital%20El%20Salvador!5e0!3m2!1ses!2ssv!4v1618866972214!5m2!1ses!2ssv"
+                        width="80%" height="60%" style="border-radius: 25px 0px 25px 0px; box-shadow: 0px 0px 10px #e2c3c3;" allowfullscreen="" loading="lazy"></iframe>
+                </article>
+
+                <br>
+
+                <article class="col-md-3 ">
+                    <p class="tit_pie"> Departamentos</p>
+                    <small>
+                       <p>Cirugía</p>
+                         <p>Cardiología</p>
+                         <p>Psiquiatría</p>
+                         <p>Odontología</p>
+    </small>
+                </article>
+
+                <br>
+
+                <article class="col-md-3 ">
+                    <p class="tit_pie">Redes sociales</p>
+                    <span class="redes">
+     <img class="log_redes" src="img/fa.png" alt="">
+     <a class="text_redes" href="https://www.facebook.com/">Facebook</a> 
+          </span>
+
+                    <span class="redes">
+     <img class="log_redes" src="img/ins.png" alt="">
+     <a class="text_redes" href="https://www.instagram.com/">Instagram</a> 
+          </span>
+
+
+                    <span class="redes">
+                    <img class="log_redes" src="img/link.png" alt="">
+            <a class="text_redes" href="https://www.linkedin.com/">Linkedin</a> 
+          </span>
+
+                </article>
+
+            </section>
+        </section>
+
+    </footer>
+
+</body>
+
+</html>
+
+</html>
